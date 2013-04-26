@@ -1,10 +1,10 @@
 ==Rails Landing Page App 
 
-This is a rails landing page application built using Devise and Bootstrap with responsive layout.
+This is an open source Rails Landing Page application built using <a href="https://github.com/plataformatec/devise">Devise</a> and <a href="http://twitter.github.io/bootstrap/">Bootstrap</a> with responsive layout.
 
 ==Demo
 
-http://rails-landing-page.herokuapp.com/ 
+http://rails-landing-page.herokuapp.com 
 
 == Getting Started
 
