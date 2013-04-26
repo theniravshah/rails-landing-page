@@ -1,0 +1,39 @@
+<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+         <span class="icon-bar"></span>
+       </a>
+<!--
+<a class="brand" style="height:35px; width:35px" href="<%= root_path %>"> <img src="/assets/logo.png"></a>
+-->
+<%= link_to "App Title", root_path, :class => 'brand' %>
+<div class="nav-collapse collapse" id="main-menu" style="height: 0px;">
+  <ul class="nav" id="main-menu-left">
+  </ul>
+  <ul class="nav pull-right" id="main-menu-right">
+    <li>
+      <%= link_to('About', home_about_path) %>
+    </li>
+    <% if user_signed_in? %>
+      <li>
+      <%= link_to('Logout', destroy_user_session_path, :method=>'delete') %>
+      </li>
+    <% else %>
+      <li>
+      <%= link_to('Sign in', new_user_session_path)  %>
+      </li>
+    <% end %>
+    <% if user_signed_in? %>
+      <li>
+      <%= link_to('Edit account', edit_user_registration_path) %>
+      </li>
+    <% else %>
+      <li>
+      <%= link_to "Request Invite", new_invitation_path %>
+      <!--
+        <%= link_to('Sign up', new_user_registration_path)  %>
+      -->
+      </li>
+    <% end %>
+  </ul>
+</div>

@@ -1,0 +1,33 @@
+<h2>Request invite</h2>
+
+<%= simple_form_for @invitation do |f| %>
+  <p>
+    <%= f.input :first_name, :required => true %>
+  </p>
+  <p>
+    <%= f.input :last_name, :required => true %>
+  </p>
+  <p>
+    <%= f.input :email, :required => true %>
+  </p>
+  <p>
+    <%= f.input :phone %>
+  </p>
+<!--
+  <p>
+    <input type="checkbox" id="" name=""/>
+    <label class="checkbox inline">Programming</label>
+  </p>
+  <p>
+    <input type="checkbox" id="" name=""/>
+    <label class="checkbox inline">Digital Marketing</label>
+  </p>
+  <p>
+    <input type="checkbox" id="" name=""/>
+    <label class="checkbox inline">MS Office</label>
+  </p>
+-->
+  <p><%= f.submit "Submit" %></p>
+<% end %>
+
+

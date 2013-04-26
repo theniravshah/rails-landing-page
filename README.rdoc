@@ -1,0 +1,36 @@
+==Rails Landing Page App 
+
+This is a rails landing page application built using Devise and Bootstrap with responsive layout.
+
+== Getting Started
+
+1. At the command prompt, clone this application:
+       git clone https://github.com/theniravshah/rails-landing-page.git
+
+2. Change directory to <tt>myapp</tt>:
+       cd rails-landing-page
+
+3. Install the necessary gems:
+       bundle install
+
+4. Rename the app:
+       rails g rename:app_to New-Name
+
+5. Run the database migration:
+       rake db:migrate
+
+6. Start the rails server:
+       rails s
+
+Your app will be running at: http://localhost:3000 
+
+
+== References:
+
+https://github.com/plataformatec/devise
+http://twitter.github.io/bootstrap/
+http://bootswatch.com/
+https://github.com/morshedalam/rename
+
+== License
+MIT License. Copyright 2013 Nirav Shah
