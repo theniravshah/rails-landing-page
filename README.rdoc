@@ -2,6 +2,10 @@
 
 This is a rails landing page application built using Devise and Bootstrap with responsive layout.
 
+==Demo
+
+http://rails-landing-page.herokuapp.com/ 
+
 == Getting Started
 
 1. At the command prompt, clone this application:
@@ -27,10 +31,10 @@ Your app will be running at: http://localhost:3000
 
 == References:
 
-https://github.com/plataformatec/devise
-http://twitter.github.io/bootstrap/
-http://bootswatch.com/
-https://github.com/morshedalam/rename
+1. https://github.com/plataformatec/devise
+2. http://twitter.github.io/bootstrap/
+3. http://bootswatch.com/
+4. https://github.com/morshedalam/rename
 
 == License
 MIT License. Copyright 2013 Nirav Shah
