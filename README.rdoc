@@ -6,7 +6,7 @@ This is a rails landing page application built using Devise and Bootstrap with r
 
 http://rails-landing-page.herokuapp.com/ 
 
-== Getting Started
+== Setup Instructions
 
 1. At the command prompt, clone this application:
        git clone https://github.com/theniravshah/rails-landing-page.git
