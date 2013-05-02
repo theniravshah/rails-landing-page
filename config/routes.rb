@@ -5,7 +5,7 @@ RailsLandingPage::Application.routes.draw do
   get "home/index"
   get "home/about"
 
-  devise_for :users
+  devise_for :users, :skip => [:registrations] 
 
   root :to => "home#index"
   # The priority is based upon order of creation:
